@@ -3,7 +3,7 @@
 
 int main (){
 
-char estado, cidade[50], cod_carta[4], estado2, cidade2[50], cod_carta2[4];
+char estado, cidade[50], cod_carta[4], estado2, cidade2[50], cod_carta2[4]; // Aqui, já crio variáveis para ambas as cartas
 int populacao, pontos_turisticos, populacao2, pontos_turisticos2;
 float area, pib, area2, pib2;
 

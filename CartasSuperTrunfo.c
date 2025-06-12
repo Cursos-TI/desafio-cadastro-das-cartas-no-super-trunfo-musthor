@@ -36,7 +36,7 @@ float area, pib, area2, pib2, densidadepop, densidadepop2, pibpercapita, pibperc
     pibpercapita = (float) pib/populacao; // Fiz o cálculo de PIB per capita, usando casting
     
     printf("\n");   
-A
+
     printf ("Carta 1:\n");
 
     printf("Estado: %c\n", estado);
@@ -78,8 +78,8 @@ A
     printf("Digite a quantidade de pontos turísticos: \n");
     scanf("%d", &pontos_turisticos2);
 
-    densidadepop2 = populacao2/area2; // Fiz o cálculo de densidade populacional
-    pibpercapita2 = pib2/populacao2;  // Fiz o cálculo de PIB per capita
+    densidadepop2 = (float) populacao2/area2; // Fiz o cálculo de densidade populacional, usando casting
+    pibpercapita2 = (float) pib2/populacao2;  // Fiz o cálculo de PIB per capita, usando casting
 
     printf("\n");
 

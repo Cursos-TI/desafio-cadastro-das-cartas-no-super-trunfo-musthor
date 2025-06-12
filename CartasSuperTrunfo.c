@@ -20,7 +20,7 @@ float area, pib, area2, pib2;
     fgets(cidade, 50, stdin); // Lê a string com espaços
     cidade[strcspn(cidade, "\n")] = 0; // Remove a quebra de linha do nome da cidade
 
-    printf("Digite a população: \n");
+    printf("Digite a população: \n"); //Teste commit
     scanf("%d", &populacao);
 
     printf("Digite a área: \n");
